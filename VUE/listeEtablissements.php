@@ -9,7 +9,7 @@ class='tabNonQuadrille'>
    <tr class='enTeteTabNonQuad'>
       <td colspan='4'>Etablissements</td>
    </tr>";
-   $connexion = createConnexion();
+   $connexion = getConnexion();
    $req=obtenirReqEtablissements();
    $rsEtab=$connexion->query($req);
    $lgEtab=$rsEtab->fetch(PDO::FETCH_ASSOC);

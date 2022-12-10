@@ -4,7 +4,7 @@ $titre = 'Accueil';
 
 ob_start ();
 
-echo"
+?>
 <br>
 <table width='80%' cellspacing='0' cellpadding='0' align='center'>
    <tr>  
@@ -36,12 +36,12 @@ echo"
       </ul>
       </td>
    </tr>
-</table>"; 
+</table>
+
+<?php $contenu = ob_get_clean ();?> 
+
+<?php require './VUE/Template.php';?>
+<?php echo $contenu ?>
+
 ?>
-<?php $contenu = ob_get_clean (); 
-
-require './VUE/Template.php';?>
-<?= $contenu ?>
-
-
 
