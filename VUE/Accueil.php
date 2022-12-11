@@ -2,7 +2,7 @@
 
 $titre = 'Accueil'; 
 
-ob_start ();
+require './VUE/Template.php';
 
 ?>
 <br>
@@ -38,10 +38,7 @@ ob_start ();
    </tr>
 </table>
 
-<?php $contenu = ob_get_clean ();?> 
 
-<?php require './VUE/Template.php';?>
-<?php echo $contenu ?>
 
 ?>
 

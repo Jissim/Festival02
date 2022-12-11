@@ -4,7 +4,7 @@
 <?php ob_start() ?>
 <?php
 
-$connexion = createConnexion();
+$connexion = getConnexion();
 $id=$_REQUEST['id'];  
 
 // OBTENIR LE DÉTAIL DE L'ÉTABLISSEMENT SÉLECTIONNÉ

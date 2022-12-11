@@ -4,7 +4,7 @@
 <?php ob_start() ?>
 <?php
 // Connexion à la base 'festival'
-$connexion = createConnexion();
+$connexion = getConnexion();
 // EFFECTUER OU MODIFIER LES ATTRIBUTIONS POUR L'ENSEMBLE DES ÉTABLISSEMENTS
 
 // CETTE PAGE CONTIENT UN TABLEAU CONSTITUÉ DE 2 LIGNES D'EN-TÊTE (LIGNE TITRE ET 
