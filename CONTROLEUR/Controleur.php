@@ -10,9 +10,9 @@ function AffichageVue ($connexion) {
     if (isset($_GET['change'])){
         switch ($_GET['change']){
             case 'Gestion_eta' :
-                require './VUE/listeEtablissements';
+                require './VUE/listeEtablissements.php';
                 break;
-            case 'consultationAttributions' :
+            case 'Attri_chambre' :
                 require './VUE/ConsultationAttributions.php';
                 break;
             case 'creationEtablissement' :

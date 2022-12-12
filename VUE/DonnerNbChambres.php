@@ -11,7 +11,7 @@ $idGroupe=$_REQUEST['idGroupe'];
 $nbChambres=$_REQUEST['nbChambres'];
 
 echo "
-<form method='POST' action='index.php?action=modificationAttributions'>
+<form method='POST' action='index.php?change=modificationAttributions'>
 	<input type='hidden' value='validerModifAttrib' name='modif'>
    <input type='hidden' value='$idEtab' name='idEtab'>
    <input type='hidden' value='$idGroupe' name='idGroupe'>";
@@ -30,7 +30,7 @@ echo "
    </select></h5>
    <input type='submit' value='Valider' name='valider'>&nbsp&nbsp&nbsp&nbsp
    <input type='reset' value='Annuler' name='Annuler'><br><br>
-   <a href='index.php?action=modificationAttributions&amp;modif=demanderModifAttrib'>Retour</a>
+   <a href='index.php?change=modificationAttributions&amp;modif=demanderModifAttrib'>Retour</a>
    </center>
 </form>";
 

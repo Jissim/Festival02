@@ -22,10 +22,10 @@ class='tabNonQuadrille'>
 		<tr class='ligneTabNonQuad'>
          <td width='52%'>$nom</td>
          
-         <td width='16%' align='center'><a href='index.php?action=detailEtablissement&id=$id'>Voir détail</a></td>
+         <td width='16%' align='center'><a href='index.php?change=detailEtablissement&id=$id'>Voir détail</a></td>
          
          <td width='16%' align='center'> 
-         <a href='index.php?action=modificationEtablissements&amp;id=$id&amp;modif=demanderModifEtab'>
+         <a href='index.php?change=modificationEtablissements&amp;id=$id&amp;modif=demanderModifEtab'>
          Modifier</a></td>";
       	
          // S'il existe déjà des attributions pour l'établissement, il faudra
@@ -34,7 +34,7 @@ class='tabNonQuadrille'>
 			{
             echo "
             <td width='16%' align='center'> 
-            <a href='index.php?action=supressionEtablissements&amp;id=$id&amp;modif=demanderSupprEtab'>
+            <a href='index.php?change=supressionEtablissements&amp;id=$id&amp;modif=demanderSupprEtab'>
             Supprimer</a></td>";
          }
          else
@@ -48,11 +48,11 @@ class='tabNonQuadrille'>
    }   
    echo "
    <tr class='ligneTabNonQuad'>
-      <td colspan='4'><a href='index.php?action=creationEtablissement&modif=demanderCreEtab'>
+      <td colspan='4'><a href='index.php?change=creationEtablissement&modif=demanderCreEtab'>
       Création d'un établissement</a ></td>
   </tr>
 </table>";
 ?>
-<?php $contenu = ob_get_clean(); 
+<?php $contenu = ob_get_clean();
 require './VUE/Template.php'; ?>
 <?= $contenu ?>

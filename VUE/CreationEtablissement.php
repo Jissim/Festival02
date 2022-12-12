@@ -53,7 +53,7 @@ else
 }
 
 echo "
-<form method='POST' action='index.php?action=creationEtablissement&amp;modif=validerCreEtab'>
+<form method='POST' action='index.php?change=creationEtablissement&amp;modif=validerCreEtab'>
    <input type='hidden' value='validerCreEtab' name='modif'>
    <table width='85%' align='center' cellspacing='0' cellpadding='0' 
    class='tabNonQuadrille'>
@@ -158,7 +158,7 @@ echo "
          </td>
       </tr>
       <tr>
-         <td colspan='2' align='center'><a href='index.php?action=listeEtablissements'>Retour</a>
+         <td colspan='2' align='center'><a href='index.php?change=listeEtablissements'>Retour</a>
          </td>
       </tr>
    </table>

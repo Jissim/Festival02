@@ -8,7 +8,7 @@
             {  
                 echo "<table width='75%' cellspacing='0' cellpadding='0' align='center'
                 <tr><td>
-                <a href='index.php?action=modificationAttributions&amp;modif=demanderModifAttrib'>
+                <a href='index.php?change=modificationAttributions&amp;modif=demanderModifAttrib'>
                  Effectuer ou modifier les attributions</a></td></tr></table><br><br>";
    
                 // POUR CHAQUE ÉTABLISSEMENT : AFFICHAGE D'UN TABLEAU COMPORTANT 2 LIGNES 

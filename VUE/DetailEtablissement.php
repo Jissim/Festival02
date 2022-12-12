@@ -78,7 +78,7 @@ class='tabNonQuadrille'>
 </table>
 <table align='center'>
    <tr>
-      <td align='center'><a href='index.php?action=listeEtablissements'>Retour</a>
+      <td align='center'><a href='index.php?change=listeEtablissements'>Retour</a>
       </td>
    </tr>
 </table>";

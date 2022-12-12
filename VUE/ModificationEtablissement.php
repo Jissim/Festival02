@@ -157,7 +157,7 @@ echo "
          </td>
       </tr>
       <tr>
-         <td colspan='2' align='center'><a href='index.php?action=listeEtablissements'>Retour</a>
+         <td colspan='2' align='center'><a href='index.php?change=listeEtablissements'>Retour</a>
          </td>
       </tr>
    </table>

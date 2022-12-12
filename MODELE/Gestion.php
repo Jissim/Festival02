@@ -22,7 +22,7 @@ function getConnexion()
 function connect()
 {
     $dbh = new PDO('mysql:host=localhost;dbname=festival;charset=utf8',
-    'root','123456789',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    'festival','123456',array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
   return $dbh;
 }
 // {
@@ -442,4 +442,5 @@ function afficherErreurs()
    echo '</ul>';
    echo '</div>';
 } 
+
 ?>
